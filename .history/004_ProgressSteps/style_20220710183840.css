@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .progress-container {
+  display: flex;
+  gap: 100px;
+}
+body .container .progress-container .circle {
+  border: 50%;
+}/*# sourceMappingURL=style_20220710183840.css.map */
