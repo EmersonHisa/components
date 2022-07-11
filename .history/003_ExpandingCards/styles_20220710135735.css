@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .panel {
+  felx: 0.5;
+}/*# sourceMappingURL=styles_20220710135735.css.map */

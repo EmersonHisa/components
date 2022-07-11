@@ -1,0 +1,1 @@
+const panels = document.que

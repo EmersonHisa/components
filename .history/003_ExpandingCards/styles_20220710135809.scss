@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .panel {
+        &.active {
+            flex: 5
+        }
+        felx: 0.5
+    }
+    
+}

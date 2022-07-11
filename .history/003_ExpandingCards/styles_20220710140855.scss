@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 300px;
+    .panel {
+        flex: 0.5;
+        height: 70%;
+        position: relative;
+        margin: 0 10px;
+        border-radius: 30px;
+        transition: flex 0.3s ease-in;
+        &.active {
+            flex: 5;
+            h3 {
+                opacity: 1;
+            }
+        }
+        h3 {
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+            color:white;
+            opacity: 0;
+            transition: opacity 0.3s ease-in;
+        }
+        
+    }
+    
+}

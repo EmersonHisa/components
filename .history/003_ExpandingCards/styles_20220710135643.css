@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=styles_20220710135643.css.map */

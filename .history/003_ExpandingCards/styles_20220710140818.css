@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 300px;
+}
+.container .panel {
+  flex: 0.5;
+  height: 70%;
+  position: relative;
+  margin: 0 10px;
+  border-radius: 20px;
+  transition: flex 0.3s ease-in;
+}
+.container .panel.active {
+  flex: 5 h3;
+  flex-opacity: 1;
+}
+.container .panel h3 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}/*# sourceMappingURL=styles_20220710140818.css.map */

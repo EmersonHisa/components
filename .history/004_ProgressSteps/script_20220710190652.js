@@ -1,0 +1,1 @@
+const next = document.querySelector

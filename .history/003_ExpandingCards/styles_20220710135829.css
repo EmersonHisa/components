@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .panel {
+  flex: 0.5;
+}
+.container .panel.active {
+  flex: 5;
+}/*# sourceMappingURL=styles_20220710135829.css.map */

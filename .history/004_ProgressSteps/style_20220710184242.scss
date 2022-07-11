@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container {
+        .progress-container {
+            display: flex;
+            gap:100px;
+            .circle {
+                width:40px;
+                height:40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: lightgrey 3px solid;
+                border-radius:100%;
+            }
+            .progress {
+                width:200px;
+                height:5px;
+                color:
+            }
+        }
+    }
+}

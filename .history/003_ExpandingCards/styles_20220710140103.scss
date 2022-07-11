@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 300px;
+    .panel {
+        flex: 0.5;
+        height: 500px;
+        pos
+        &.active {
+            flex: 5
+        }
+        
+    }
+    
+}
