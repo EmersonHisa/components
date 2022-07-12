@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    .container {
+        .input {
+            padding:0;
+            border: none;
+            width:0;
+        }
+        button {
+            background-color: white;
+            padding:5px 10px;
+            border:none;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+    }
+    .container.active {
+        .input {
+            width:200px;
+        }
+    }
+}
+

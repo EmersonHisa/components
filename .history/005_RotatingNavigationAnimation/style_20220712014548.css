@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+  background-color: rgb(54, 54, 54);
+}
+body .container {
+  padding: 100px;
+  background-color: white;
+}
+body .container.show-nav + nav li {
+  transform: translateX(0);
+  transition-delay: 0.3s;
+}
+body .container.show-nav .circle {
+  transform: rotate(-90deg);
+}
+body .container.show-nav .content {
+  transform: rotate(-20deg);
+  transform-origin: left top;
+  transition: transform 0.3s;
+}
+body .circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+body .circle-container .circle {
+  width: 200px;
+  height: 200px;
+  background-color: orangered;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.4s;
+}
+body .circle-container .circle button {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  cursor: pointer;
+}
+body .circle-container .circle #open {
+  left: 60%;
+  top: 60%;
+}
+body .circle-container .circle #close {
+  left: 23%;
+  top: 58%;
+}
+body nav {
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  z-index: 100;
+}
+body nav ul {
+  list-style-type: none;
+  padding-left: 30px;
+}
+body nav ul li {
+  text-transform: uppercase;
+  color: #fff;
+  margin: 40px 0;
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in;
+}/*# sourceMappingURL=style_20220712014548.css.map */

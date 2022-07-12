@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #333;
+  overflow: hidden;
+  margin: 0;
+}/*# sourceMappingURL=style_20220712005430.css.map */

@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    .container {
+        .input {
+            padding:0;
+            border: none;
+            width:0;
+        }
+        i {
+            background-color: transparent;
+        }
+    }
+    .container.active {
+        .input {
+            width:200px;
+        }
+    }
+}
+

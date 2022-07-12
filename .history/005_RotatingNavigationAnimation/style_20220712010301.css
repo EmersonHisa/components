@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #333;
+  overflow: hidden;
+}
+body .circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+body .circle-container .circle {
+  width: 200px;
+  height: 200px;
+  background-color: orangered;
+  border-radius: 50%;
+  position: relative;
+}
+body .circle-container .circle #open {
+  position: absolute;
+  left: 65%;
+  top: 65%;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+body .circle-container .circle #close {
+  position: absolute;
+  left: 35%;
+  top: 65%;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}/*# sourceMappingURL=style_20220712010301.css.map */
