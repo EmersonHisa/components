@@ -1,0 +1,90 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0 ;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(54, 54, 54);
+    .container {
+        padding:100px;
+        background-color: white;
+
+
+    }
+    .container.show-nav + nav li {
+        transform: translateX(0);
+        transition-delay: 0.3s;
+    }
+    .container.show-nav .circle {
+        transform: rotate(-70deg);
+    }
+    .container.show-nav {
+        transform: rotate(-20deg);
+        transform-origin: left top;
+        transition: transform 0.3s;
+    }
+    .circle-container {
+        position: fixed;
+        top: -100px;
+        left: -100px;
+
+        .circle {
+            width: 200px;
+            height: 200px;
+            background-color: orangered;
+            border-radius: 50%;
+            position: relative;
+            transition: transform 0.4s;
+            button {
+                position: absolute;
+                border:none;
+                background-color: transparent;
+                font-size: 30px;
+                cursor: pointer;
+            }
+            #open {
+                left: 60%;
+                top: 60%;
+            }
+            #close {
+                left: 23%;
+                top: 58%;
+            }
+        }
+    }
+    nav {
+        position: fixed;
+        bottom: 40px;
+        left: 0;
+        z-index: 100;
+
+        ul {
+            list-style-type: none;
+            padding-left: 30px;
+            li {
+                text-transform: uppercase;
+                color: #fff;
+                margin: 40px 0;
+                transform: translateX(-120%);
+                transition: transform 0.4s ease-in;
+            }
+            li + li {
+
+                 transform: translateX(-150%);
+            }
+            li + li  + li {
+                margin-left: 30px;
+                transform: translateX(-200%);
+            }
+            
+        }
+
+
+      }
+  } 
