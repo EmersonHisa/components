@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body .bg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url();
+}/*# sourceMappingURL=style_20220713010318.css.map */
