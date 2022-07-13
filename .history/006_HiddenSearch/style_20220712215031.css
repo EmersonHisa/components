@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightcoral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .input {
+  padding: 0;
+  border: none;
+}
+body .container .input {
+  padding: 0;
+  border: none;
+}
+body .container.active .input {
+  width: 200px;
+}/*# sourceMappingURL=style_20220712215031.css.map */

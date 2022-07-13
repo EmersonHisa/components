@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightcoral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container {
+  display: flex;
+}
+body .container .input {
+  transition: all 0.3s linear;
+  padding: 0;
+  border: none;
+  width: 0;
+}
+body .container .input:focus {
+  outline: none;
+}
+body .container button {
+  background-color: white;
+  padding: 5px 10px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+body .container.active .input {
+  width: 200px;
+}/*# sourceMappingURL=style_20220712220123.css.map */

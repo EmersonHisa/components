@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightcoral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .input {
+  padding: 0;
+  border: none;
+  width: 0;
+}
+body .container i {
+  background-color: transparent;
+  padding: 5px;
+}
+body .container.active .input {
+  width: 200px;
+}/*# sourceMappingURL=style_20220712215135.css.map */

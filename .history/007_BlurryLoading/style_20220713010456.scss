@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    .bg {
+        width:100vw;
+        height:100vh;
+        background-image: url('https://images.pexels.com/photos/12681236/pexels-photo-12681236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
