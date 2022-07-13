@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        form {
+            background-color: rgb(40, 153, 190);
+            display: flex;
+            flex-direction: column;
+            gap:5px;
+        }
+    }
+}

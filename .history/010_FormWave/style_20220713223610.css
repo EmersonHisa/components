@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container form {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}/*# sourceMappingURL=style_20220713223610.css.map */

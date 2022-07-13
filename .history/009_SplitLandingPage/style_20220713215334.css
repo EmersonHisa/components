@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.container .split {
+  flex: 6;
+}/*# sourceMappingURL=style_20220713215334.css.map */

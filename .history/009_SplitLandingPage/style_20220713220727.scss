@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    .split {
+        flex:6;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &.left {
+            background-image: url(https://github.com/bradtraversy/50projects50days/blob/master/split-landing-page/ps.jpg?raw=true);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            &::before {
+                content:"";
+                position:absolute;
+                width:100%;
+                height: 100%;
+                background-color:rgba($color: rgb(167, 54, 167), $alpha: 0.3);
+                index
+            }
+        }
+        &.right {
+            background-image: url(https://github.com/bradtraversy/50projects50days/blob/master/split-landing-page/xbox.jpg?raw=true);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            &::before {
+                content:"";
+                position:absolute;
+                width:100%;
+                height: 100%;
+                background-color:rgba($color: yellow, $alpha: 0.3);
+            }
+        }
+        .btn {
+            text-decoration: none;
+            margin-top: 50px;
+            padding:10px 50px;
+            border:white 3px solid;
+            color:white;
+            cursor: pointer;
+        }
+    }
+    
+}

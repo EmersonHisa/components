@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}/*# sourceMappingURL=style_20220713215320.css.map */

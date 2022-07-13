@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.container .split {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .split.left {
+  background-image: url(https://github.com/bradtraversy/50projects50days/blob/master/split-landing-page/ps.jpg?raw=true);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container .split.left::before {
+  background-color: black;
+}
+.container .split .btn {
+  text-decoration: none;
+  margin-top: 50px;
+  padding: 5px 20px;
+  border: mediumturquoise 1px solid;
+  color: mediumturquoise;
+}/*# sourceMappingURL=style_20220713220013.css.map */

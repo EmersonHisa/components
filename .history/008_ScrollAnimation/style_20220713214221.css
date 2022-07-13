@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  max-width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.container .box {
+  padding: 50px 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: transform 0.3s linear;
+  transform: translateX(400%);
+}
+.container .box:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+.container .box.active {
+  transform: translateX(0%);
+}/*# sourceMappingURL=style_20220713214221.css.map */

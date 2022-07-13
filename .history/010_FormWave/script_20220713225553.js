@@ -1,0 +1,1 @@
+const labels = document.querySelectorAll('.')

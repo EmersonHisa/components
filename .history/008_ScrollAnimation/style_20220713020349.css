@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.container .box {
+  padding: 50px 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  transform: transla;
+}/*# sourceMappingURL=style_20220713020349.css.map */
