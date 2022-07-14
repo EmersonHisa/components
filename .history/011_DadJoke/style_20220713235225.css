@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: cornflowerblue;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container {
+  width: 800px;
+  height: 400px;
+  background-color: lightgrey;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+body .container span {
+  font-size: 30px;
+  color: grey;
+  position: absolute;
+  top: 0;
+}
+body .container .getJoke {
+  position: absolute;
+  bottom: 0;
+}/*# sourceMappingURL=style_20220713235225.css.map */

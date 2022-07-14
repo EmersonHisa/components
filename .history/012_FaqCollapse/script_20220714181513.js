@@ -1,0 +1,1 @@
+const btns = document.q

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    background-color: #f0f0f0;
+
+    h1 {
+        margin: 50px 0 30px;
+        text-align: center;
+      }
+
+      .faq-container {
+        max-width: 600px;
+        margin: 0 auto;
+
+        .faq {
+            background-color: transparent;
+            border: 1px solid #9fa4a8;
+            border-radius: 10px;
+            margin: 20px 0;
+            padding: 30px;
+            position: relative;
+            overflow: hidden;
+            transition: 0.3s ease;
+          }
+
+          .faq.active {
+            background-color: #fff;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+          }
+          
+          .faq.active::before,
+        .faq.active::after {
+            content: '\f075';
+  font-family: 'Font Awesome 5 Free';
+  color: #2ecc71;
+  font-size: 7rem;
+  position: absolute;
+  opacity: 0.2;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+}
+
+      }
+  }
