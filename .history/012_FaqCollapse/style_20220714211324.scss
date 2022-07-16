@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    h1 {
+        text-align: center;
+        margin: 50px 0 30px;
+    }
+    .faq-container {
+        max-width: 600px;
+        margin:0 auto;
+
+        .faq {
+            width: 100%;
+            border:1px solid black
+        }
+    }
+}

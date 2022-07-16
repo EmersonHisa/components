@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    background-color: beige;
+    h1 {
+        text-align: center;
+        margin: 50px 0 30px;
+    }
+    .faq-container {
+        max-width: 600px;
+        margin:0 auto;
+
+        .faq {
+            position: relative;
+            width: 100%;
+            border:1px solid black;
+            margin-bottom: 30px;
+
+            .toggle {
+                position: absolute;
+                right: 10px;
+                top: 30%;
+                .<i class="fa-solid fa-x"></i>
+            }
+            .faq-question {
+                padding:5px;
+                margin-bottom: 20px;
+            }
+            .faq-answer {
+                padding:5px;
+                margin-bottom: 20px;
+                display: none;
+            }
+
+            &.active {
+
+                &::before {
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                    font-size: 60px;
+                    content: '\f15c';
+                    color:wheat;
+                    opacity: 0.3;
+                    position: absolute;
+                    width: 50px;
+                    height: 100px;
+                    top: 10px;
+                    left:10px;
+
+                }
+                background-color: white;
+
+                .faq-answer {
+                    display: block;
+                }
+                .toggle {
+                    .fa-angles-down {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

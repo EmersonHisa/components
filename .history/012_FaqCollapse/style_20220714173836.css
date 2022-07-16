@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  background-color: #f0f0f0;
+}
+body h1 {
+  margin: 50px 0 30px;
+  text-align: center;
+}
+body .faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+}/*# sourceMappingURL=style_20220714173836.css.map */

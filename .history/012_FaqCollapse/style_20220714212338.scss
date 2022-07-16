@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    background-color: beige;
+    h1 {
+        text-align: center;
+        margin: 50px 0 30px;
+    }
+    .faq-container {
+        max-width: 600px;
+        margin:0 auto;
+
+        .faq {
+            position: relative;
+            width: 100%;
+            border:1px solid black;
+            margin-bottom: 30px;
+
+            .toggle {
+                position: absolute;
+                right: 10px;
+                top: 10px;
+            }
+            .faq-question {
+                padding:
+            }
+            .faq-answer {
+                display: none;
+            }
+        }
+    }
+}
