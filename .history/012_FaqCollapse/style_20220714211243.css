@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body h1 {
+  text-align: center;
+  margin: 50px 0 30px;
+}
+body .faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+}/*# sourceMappingURL=style_20220714211243.css.map */

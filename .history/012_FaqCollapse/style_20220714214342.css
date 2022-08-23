@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  background-color: beige;
+}
+body h1 {
+  text-align: center;
+  margin: 50px 0 30px;
+}
+body .faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+body .faq-container .faq {
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+body .faq-container .faq .toggle {
+  position: absolute;
+  right: 10px;
+  top: 30%;
+}
+body .faq-container .faq .toggle .fa-x {
+  display: none;
+}
+body .faq-container .faq .faq-question {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+body .faq-container .faq .faq-answer {
+  padding: 5px;
+  margin-bottom: 20px;
+  display: none;
+}
+body .faq-container .faq.active {
+  background-color: white;
+}
+body .faq-container .faq.active::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 60px;
+  content: "\f15c";
+  color: wheat;
+  opacity: 0.3;
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  top: 10px;
+  left: 10px;
+}
+body .faq-container .faq.active .faq-answer {
+  display: block;
+}
+body .faq-container .faq.active .toggle .fa-angles-down {
+  display: none;
+}
+body .faq-container .faq.active .toggle .fa-x {
+  display: block;
+}/*# sourceMappingURL=style_20220714214342.css.map */
