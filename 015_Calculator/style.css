@@ -14,6 +14,8 @@ body {
   width: 480px;
   margin: 20px 10px;
   border-radius: 3px;
+  text-align: right;
+  font-size: 2rem;
 }
 .calculator .operators {
   display: flex;
@@ -25,6 +27,7 @@ body {
   padding: 15px 20px;
   text-align: center;
   border: 1px solid black;
+  cursor: pointer;
 }
 .calculator .leftPanel {
   margin-top: 5px;
@@ -44,6 +47,7 @@ body {
   padding: 15px 20px;
   text-align: center;
   border: 1px solid black;
+  cursor: pointer;
 }
 
 .container {
@@ -60,4 +64,5 @@ body {
   padding: 15px 20px;
   text-align: center;
   border: 1px solid black;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
