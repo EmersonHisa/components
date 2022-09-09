@@ -35,6 +35,7 @@ h2 {
   position: absolute;
   left:10px;
   top:270px;
+  bottom:10rem;
 }
 
 .border {
@@ -60,12 +61,13 @@ h2 {
     width: 310px;
     background:black ;
     border-radius: 10px;
-  transition: background 0.8s;
+  transition: background 0.5s;
   overflow: hidden;
   box-shadow: 0 70px 63px -60px #000000;
   display: flex;
   justify-content: center;
   align-items: center;
+
   position: relative;
 }
 .card0 {
